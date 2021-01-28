@@ -76,8 +76,13 @@
 						</div>
 
 					</td>
-					<td id="paypal-button-container">
-
+					<td >
+						<strong>
+							PAY METHOD : 
+						</strong>
+						<strong class="btn disabled">
+							Online 
+						</strong>
 					</td>
 					<td>Total: <?php echo number_format($total, 2) ?></td>
 				</tr>
@@ -97,7 +102,7 @@
 	</div>
 	
 
-	<script src="https://www.paypal.com/sdk/js?client-id=AbWonYQo0iRbTtpMJLCNowl-pytJuOGoVhwzq3ZbKz_JJmmLqcaurPIx2N-2CEi-A93qq53l3zOTBopA"></script>
+	<!-- <script src="https://www.paypal.com/sdk/js?client-id=AbWonYQo0iRbTtpMJLCNowl-pytJuOGoVhwzq3ZbKz_JJmmLqcaurPIx2N-2CEi-A93qq53l3zOTBopA"></script>
 
 	<script>
 
@@ -105,7 +110,7 @@ paypal.Buttons({
 	createOrder: function(data, actions) {
 		return actions.order.create({
 			purchase_units: [{
-				amount: { value: <?php echo number_format($total, 2); ?> }
+				amount: { value: <?php //echo number_format($total, 2); ?> }
 			}]
 		})
 	},
@@ -117,7 +122,7 @@ paypal.Buttons({
 	}
 }).render('#paypal-button-container');
 
-</script>
+</script> -->
 
 <script type="text/javascript">
 	let quantityInputs = document.querySelectorAll('.quantity_input');

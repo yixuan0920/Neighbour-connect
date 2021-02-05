@@ -28,7 +28,7 @@
 					<hr>
 
 					<div class="col-md-4">
-						<a href="mycart.php"><img src="../../assets/bgimg/t2.PNG" class="img-r"></a>
+						<a href="mycart.php" target="_blank"><img src="../../assets/bgimg/t2.PNG" class="img-r"></a>
 					</div>
 					<div class="col-md-8">
 						<p>2. <strong>My Cart</strong></p>
@@ -38,7 +38,7 @@
 					<hr>
 
 					<div class="col-md-4">
-						<a href=""><img src="../../assets/bgimg/t3.PNG" class="img-r"></a>
+						<a href="#"><img src="../../assets/bgimg/t3.PNG" class="img-r"></a>
 					</div>
 					<div class="col-md-8">
 						<p>3. <strong>Order</strong></p>

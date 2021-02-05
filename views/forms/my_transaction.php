@@ -19,13 +19,13 @@
 <p>.</p>
 <div class="container">
     <div class="row">
-        <h2 class="mt-5 text-center"> My Transactions </h2>
+        <h2 class="mt-5 text-center font-style1"> My Order </h2>
         <hr>
         <div class="col-md-8 mx-auto">
             <div class="text-white d-flex pt-5 justify-content-between">
-                <div class="p-4 bg-info radius1">Pending</div>
-                <div class="p-4 bg-success radius1">Completed</div>
-                <div class="p-4 bg-danger radius1">Cancelled</div>
+                <div class="p-4 bg-info radius1 font-style1">Pending</div>
+                <div class="p-4 bg-success radius1 font-style1">Completed</div>
+                <div class="p-4 bg-danger radius1 font-style1">Cancelled</div>
             </div>
             <div class="accordion py-5">
                 <?php foreach($orders as $order): ?>

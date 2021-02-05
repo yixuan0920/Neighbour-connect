@@ -16,7 +16,7 @@
 
 	<div class="container p-0 margin-tb">
 		<div class="row text-center">
-			<h3 class="pb-2"> Upload Product </h3>
+			<h3 class="pb-2 font-style1"> Upload Product </h3>
 			<hr class="hr-index mx-auto">
 		</div>
 
@@ -49,11 +49,11 @@
 		</div>
 		
 		<div class="row mt-5">
-			<h3> Your Products <span class="btn disabled">edit that</span></h3>
+			<h3 class="font-style1"> Your Products <span class="btn disabled">edit that</span></h3>
 			<hr>
 			<?php foreach($products as $product): ?>
 				<?php if($_SESSION["user_details"]['users_id'] == $product['users_id']): ?>
-                <div class="col-md-3 py-5">
+                <div class="col-md-3 py-5"  data-aos="flip-up">
                     <div class="card product-h">
                         <img src="<?php echo $product['image'] ?>" class="card-img-top">
                         <div class="card-body mt-border">

@@ -92,9 +92,9 @@
 		<?php else: ?>
 			<div class="card text-center margin-tb">
 				<div class="card-header">
-					<h2>Your cart is empty</h2>
+					<h2 class="font-style1">Your cart is empty</h2>
 				</div>
-				<div class="card-body">
+				<div class="card-body font-style1">
 					<a href="homepage.php">Go back to shopping.</a>
 				</div>
 			</div>

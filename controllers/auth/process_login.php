@@ -14,7 +14,7 @@ $user = $result->fetch_assoc();
 if($user && password_verify($password, $user["password"])) {
 	session_start();
 	$_SESSION["user_details"] = $user;
-	header("Location: ../../views/forms/homepage.php");
+	header("Location: ../../views/forms/neighbour_welcome.php");
 } else {
 	echo "Please check your credentials";
 	echo "<br>";
